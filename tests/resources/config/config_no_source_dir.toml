@@ -1,0 +1,8 @@
+[config]
+source_dir = "tests/input"
+dry_run = true
+log = true
+
+[[rules]]
+pattern = ".*\\.txt"
+target = "tests/resources/temp/output/txt"

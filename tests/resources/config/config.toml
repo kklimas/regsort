@@ -1,0 +1,12 @@
+[config]
+source_dir = "tests/resources/config/temp/input"
+dry_run = false
+log = true
+
+[[rules]]
+pattern = ".*\\.txt"
+target = "tests/resources/config/temp/output/txt"
+
+[[rules]]
+pattern = ".*\\.csv"
+target = "tests/resources/config/temp/output/csv"

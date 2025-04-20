@@ -1,0 +1,12 @@
+[config]
+source_dir = "in"
+dry_run = false
+log = true
+
+[[rules]]
+pattern = ".*\\.txt"
+target = "out/txt"
+
+[[rules]]
+pattern = ".*\\.csv"
+target = "out/txt"

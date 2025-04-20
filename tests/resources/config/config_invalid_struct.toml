@@ -1,0 +1,7 @@
+[config2]
+source = "tests/resources/temp/input"
+log = true
+
+[[rules2]]
+pattern = ".*\\.csv"
+target = "tests/resources/temp/output/csv"
